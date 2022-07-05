@@ -24,6 +24,12 @@ let notes = [
     date: "2022-05-30T19:20:14.298Z",
     important: true,
   },
+  {
+    id: 4,
+    content: "WEW",
+    date: "2033-05-30T19:20:14.298Z",
+    important: true,
+  },
 ]
 
 app.get("/", (request, response) => {
